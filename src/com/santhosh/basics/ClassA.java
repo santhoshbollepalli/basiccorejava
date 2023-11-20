@@ -1,4 +1,4 @@
-package pack1;
+package com.santhosh.basics.com.santhosh.basics;
 
 public class ClassA 
 {
