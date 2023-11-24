@@ -18,11 +18,11 @@ public class PrintStarBlocks
     }
     public static void printStarsBlocks(int numBlocks, int numLines, int numStars) 
     {
-    	for (int star = 0; star < numStars; star++) 
+    	for (int i = 0; i < numStars; i++)
         {
-            for (int line = 0; line < numLines; line++) 
+            for (int j = 0; j < numLines; j++)
             {
-            	for (int block = 0; block < numBlocks; block++)
+            	for (int k = 0; k < numBlocks; k++)
                 {
                     System.out.print("*");
                 }
